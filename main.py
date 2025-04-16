@@ -6,8 +6,8 @@ NAME = "3D-printed Metric Threads V3"
 UNIT = "mm"
 ANGLE = 60.0
 SIZES = list(range(8, 51))
-PITCHES = [3.5, 5.0]
-OFFSETS = [.0, .1, .2, .4, .8]
+PITCHES = [1, 1.5]
+OFFSETS = [.0, .1, .2, .4, .6]
 
 
 def designator(val: float):
